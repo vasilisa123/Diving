@@ -1,0 +1,127 @@
+.main__block{
+    width: 100%;
+    margin: 20px 128px;
+
+}
+.main__block:first-child {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 130px;
+}
+h2 {
+    font-family: roboto;
+    padding-left: 20px;
+    color:#103A58 ;
+    font-size: 24px;
+}
+.main__block-text-title_open-water p {
+    padding-left: 20px;
+    color:#9B9B9B ;
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.main__block-open-water {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    margin: 0px 50px;
+}
+.main__block-text-title_open-water {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.main__block-text:first-child {
+    border-bottom: none;
+}
+.main__block:nth-child(2) {
+    margin: 50px;
+    border-bottom: none;
+}
+.text_buttons p{
+    color: #9B9B9B;
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.text_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.text_buttons p {
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+.text_buttons button {
+    font-family: roboto;
+    font-size:18px ;
+    line-height: 21px;
+    font-weight: 500;
+    width: 325px;
+    height: 52px;
+    background:linear-gradient(#5FC9F3, #55ABF5);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    margin: 12px;
+}
+
+.main__block-actions {
+    padding-top: 20px;
+    width: 100%;
+    border-top: 1px solid #C4C4C4;
+
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    font-family: roboto;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #9B9B9B;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 20px 0px 20px 40px;
+}
+.list__item:first-child {
+    margin-top:20px;
+    font-weight: 700;
+    border-bottom: 1px solid #C4C4C4;
+    border-top: 1px solid #C4C4C4;
+}
+/* .list__item:last-child {
+    border-bottom: none;
+} */
+.start {
+    margin-left: 35px;
+}
+.main__block-informathion {
+    padding: 20px 0px;
+}
+.main__block-info__price {
+    margin: 31px auto 20px 20px;
+}
+.main__block-info__price p {
+    color: #9B9B9B;
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 16px;
+}
